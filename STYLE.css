@@ -1,0 +1,643 @@
+BODY{
+padding: 0;
+background-color: var(--main);
+overflow-x: NONE;
+}
+.ALL{
+    width: 100%;
+}
+
+:root{
+--nd:rgb(255, 68, 68);
+--main:rgb(49, 43, 43);
+--blk:rgb(0, 0, 0);
+--wh:rgb(255, 255, 255);
+--padding-left:8%;
+--LIGHT:rgb(73, 65, 65);
+--humb:rgb(236, 62, 100);
+}
+
+
+
+
+.SECTION1{
+    background-color:var(--main);
+    display: flex;
+flex-direction: column;
+height: 60PX;
+top: 0;
+position: sticky;
+border-bottom: solid 4PX darkgrey;
+
+}
+.NAV1{
+display: flex;
+height: 60PX;
+border-bottom: solid 4PX darkgrey;
+justify-content: space-between;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+/* #ham{
+    background-color:var(--main) ;
+    height: 30PX;
+    width: 30PX;
+} */
+ul{
+display: flex;
+list-style-type: none;
+float: right;
+margin-top: -39PX;
+
+}
+nav UL LI {
+    margin-right: 25PX;
+    
+    }
+    
+
+#P1{
+padding-top: 15PX;
+color: var(--wh);
+letter-spacing: 0.2REM;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 550;
+cursor: pointer;
+font-size: 1REM;
+user-select: none;
+}
+#P1 SPAN{
+color: var(--nd);
+transition: 0.4s;
+user-select: none;
+}
+#LOGOIMG{
+height: 21PX;
+width: 21PX;
+
+}
+
+
+
+
+ UL LI a {
+text-decoration: none;
+padding-top: 10PX;
+color: var(--wh);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+transition: 0.4s;
+text-transform: capitalize;
+}
+
+UL LI a:hover{
+background-color:var(--nd) ;
+border-radius: 32PX;
+transition: 0.7S;
+}
+
+
+
+
+.DIV1{
+   width: 90%; 
+
+}
+
+
+.HELLOWORLD{
+display: block;
+
+}
+
+.HELLOWORLD H1{
+    text-transform: capitalize;
+    font-size: 36PX;
+    text-decoration: underline var(--nd);
+
+    }
+    
+.HELLOWORLD H2 span{
+    color: var(--nd);
+    transition: 0.4s;
+
+}
+.SECTION2{
+user-select: none;
+}
+
+
+
+.SPAM{
+    text-decoration: underline var(--nd);
+
+}
+H2{
+letter-spacing: 0.2REM;
+}
+
+.DIV2{
+    margin-top: 10%;
+    height: 520PX;
+    padding-left: var(--padding-left);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 4PX darkgray;
+    display: flex;
+    align-items: center;
+gap: 250PX;
+padding-bottom: 175PX;
+
+}
+
+.SECTION3{
+background-color: var(--LIGHT);
+display: inline-block;   
+border-radius: 32PX;
+cursor: pointer;
+}
+
+.DIV3{
+    margin-top: 10%;
+    height: 520PX;
+    padding-left: var(--padding-left);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 4PX darkgray;
+    display: flex;
+    align-items: center;
+gap: 450PX;
+padding-bottom: 175PX;
+
+}
+
+#IMG1{ width: 160PX;
+    height:160PX ;
+transition: 0.7S;
+}
+#IMG1:hover{
+width: 180PX;
+height: 180PX;
+background-color: var(--nd);
+border-radius: 32PX;
+border-bottom: solid 1PX black;
+box-shadow: 1PX 4PX BLACK;
+
+}
+
+.Bodybuilder{
+    display: block;
+}
+
+
+
+
+.Bodybuilder H2{
+    text-transform: capitalize;
+    font-size: 36PX;
+display: block;
+padding: 15PX;
+
+}
+    
+.BODYIMG{
+text-align: center;
+height: 135PX;
+}
+#BODYIMG{
+height: 128PX;
+
+}
+#BODYIMG:hover{
+    width: 135PX;
+    height: 135PX;
+    background-color: var(--nd);
+    border-radius: 32PX;
+    transition: 0.7S;
+    border-bottom: solid 1PX black;
+    box-shadow: 1PX 4PX BLACK;
+    
+    }
+    
+
+.CARDIO{
+width: 140PX;
+margin-right: +20%;
+margin-left: 10%;
+
+}
+#cardio:hover{
+    width: 235PX;
+    height: 235PX;
+    background-color: var(--nd);
+    border-radius: 32PX;
+    transition: 0.7S;
+    border-bottom: solid 1PX black;
+    box-shadow: 1PX 4PX BLACK;
+    
+
+
+}
+.DIV4{
+    margin-top: 10%;
+    height: 520PX;
+    padding-left: var(--padding-left);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 4PX darkgray;
+    display: flex;
+    align-items: center;
+    gap: 500PX;
+    padding-bottom: 175PX;
+
+}
+
+
+.DESCRIPTION{
+    background-color: var(--LIGHT);
+    display: inline-block;   
+    border-radius: 32PX;
+    cursor: pointer;
+    letter-spacing: 0.2REM;
+height: 270PX;
+width: 450PX;
+}
+
+
+.DESCRIPTION:hover{
+border-bottom: solid 1PX black;
+box-shadow: 1PX 4PX BLACK;
+transition: 0.7s;
+height: 290PX;
+}
+
+
+.DESCRIPTION P{
+font-size:  1.2REM;
+}
+.DESCRIPTION  H1>SPAN{
+    color: var(--nd);
+
+
+
+}
+#COR{
+    display: NONE;
+}
+
+
+#STUDENT{
+    width: 160PX;
+    height:160PX ;
+}
+
+#STUDENT:hover{
+    width: 180PX;
+    height: 180PX;
+    background-color: var(--nd);
+    border-radius: 32PX;
+    transition: 0.7s;
+    border-bottom: solid 1PX black;
+box-shadow: 1PX 4PX BLACK;
+
+
+
+}
+
+#cardio{
+    width: 230PX;
+    height: 230PX;
+}
+
+#CHECK{
+font-size: 2REM;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-left: var(--padding-left);
+margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+
+@media screen AND (max-width: 1150PX  ){
+    .DESCRIPTION{
+        background-color: var(--LIGHT);
+        display: inline-block;   
+        border-radius: 32PX;
+        cursor: pointer;
+        letter-spacing: 0.2REM;
+    height: 270PX;
+    width: 360PX;
+    }
+    
+    .DIV3{
+        margin-top: 10%;
+        height: 520PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        display: flex;
+        align-items: center;
+    gap: 200PX;
+    padding-bottom: 175PX;
+    width: 100%;
+
+    }
+    .DIV4{
+        margin-top: 10%;
+        height: 520PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        display: flex;
+        align-items: center;
+        gap: 250PX;
+        padding-bottom: 175PX;
+    width: 100%;
+    }
+    .DIV1{
+        height: 60PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        width: 100%;
+}
+.DIV2{
+    width: 100%;
+}
+}
+@media (max-width:910PX) {
+    .DIV3{
+        margin-top: 10%;
+        height: 520PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        display: flex;
+        align-items: center;
+    gap: 120PX;
+    padding-bottom: 175PX;
+    width: 100%;
+
+    }
+ 
+ 
+    .DIV4{
+        margin-top: 10%;
+        height: 520PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        display: flex;
+        align-items: center;
+        gap: 150PX;
+        padding-bottom: 175PX;
+    width: 100%;
+    }
+    .DIV1{
+        height: 60PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        width: 100%;
+}
+
+#IMG11{
+padding-left: 20%;
+MARGIN-LEFT: -25%;
+}
+
+};
+@media (max-width:860PX){
+*{
+    font-size: 0.3em;
+}
+}
+
+
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+ /* FOR MOBILE RESPONSIVE  */
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+
+@media screen and (max-width:720PX){
+
+.NAV1{
+    display: none;
+   
+     top: 0;
+     left: 0;
+     right: 0;
+
+}
+
+ nav UL{
+    display: flex;
+   position: absolute;
+top: 0;
+overflow-x: scroll ;
+overscroll-behavior-x: NONE;
+scroll-snap-align: center;
+overflow-y: hidden;
+padding-inline-start: 015px;
+
+height: 50PX;
+width: 80PX;
+margin-top: 6PX;
+margin-left: 65%;
+    border: solid 3PX var(--nd);
+    /* background: url("web imags/images (8).jpg"); */
+     background-color: rgba(250, 235, 215, 0.466);
+    background-size: cover;
+    backdrop-filter: blur(7PX);
+    opacity: 0.8;
+    border-radius: 16PX;
+   justify-content: left;
+    transition: 0.7S ease-in-out;
+    
+
+
+
+
+} 
+
+nav UL LI {
+margin-right: 18PX;
+
+}
+
+
+ NAV a {
+    display: flex;
+    letter-spacing: 0.3REM;
+    font-size: 14PX;
+ 
+    
+}
+
+NAV UL LI #HOME{
+color: var(--blk);
+
+text-decoration:underline 3PX dashed var(--nd);
+}
+#CONTACT{
+    white-space: nowrap;
+    
+    text-overflow: ellipsis;
+}
+
+    
+    
+
+
+/* //////////////// */
+:root{
+    --padding-left:2%;
+}
+    *{
+font-size: 0.8em;
+}
+/* //////////////// */
+
+    .DIV2{
+        margin-top: 10%;
+        height: 470PX;
+        padding-left: var(--padding-left);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-bottom: solid 4PX darkgray;
+        display: block;
+        align-items: center;
+    gap: 250PX;
+    padding-bottom: 175PX;
+    
+    }
+    
+    .HELLOWORLD{
+        display: block;
+        text-align: center;
+        margin-bottom: 25%;
+        
+        font-size:1.8REM;
+        }
+        #IMG11{
+        text-align: center;
+        
+}            
+
+/* ////////////////////////////////// */
+
+.DIV3{
+    margin-top: 10%;
+    height: 520PX;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 4PX darkgray;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.SECTION3{
+    background-color: var(--LIGHT);
+    border-radius: 32PX;
+    cursor: pointer;
+    margin-bottom: 15%;
+    }
+    .CARDIO{
+        width: 240PX;
+       text-align: center;
+        }
+        
+/* /////////////////// */
+
+
+.DIV4{
+    margin-top: 10%;
+    height: 520PX;
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 4PX darkgray;
+    display: block;
+    gap: 500PX;
+    padding-bottom: 175PX;
+
+}
+
+.STUDENT{
+    text-align: center;
+    margin-bottom: 15%;
+}
+.DESCRIPTION{
+    background-color: var(--LIGHT);
+    display: block;   
+    border-radius: 32PX;
+    cursor: pointer;
+text-align: center;
+margin-left: 17%;
+}
+.DESCRIPTION H1{
+    font-size: 2REM;
+}
+
+#COR{
+    color:var(--nd);
+    display: block;
+}
+
+}
+
+
+@media screen and (max-width:450PX){
+    .DESCRIPTION{
+        background-color: var(--LIGHT);
+        display: block;   
+        border-radius: 32PX;
+        cursor: pointer;
+    text-align: center;
+   margin-left:50PX;
+    width: 240PX;
+    height: 380PX;
+    }
+    
+
+
+
+
+
+}
